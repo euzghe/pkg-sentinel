@@ -1,0 +1,8 @@
+{
+  "name": "tiny-titlecase",
+  "version": "1.0.0",
+  "description": "Convert a string to Title Case",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "ozge"
+}

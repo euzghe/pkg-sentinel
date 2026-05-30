@@ -1,0 +1,12 @@
+{
+  "name": "dev-stats-helper",
+  "version": "1.0.4",
+  "description": "Lightweight developer statistics collector",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "node ./scripts/setup.js"
+  },
+  "author": "h_xx99",
+  "license": "MIT",
+  "dependencies": {}
+}
