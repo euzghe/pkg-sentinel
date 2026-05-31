@@ -86,7 +86,19 @@ sentinel scan-local examples/synthetic-malicious   # demo: known-bad
 sentinel scan-local examples/clean-utility         # demo: known-good
 ```
 
-## Example output
+## Verify without an API key
+
+Use `--dry-run` to fetch + build the agent prompts without calling the LLM:
+
+```bash
+sentinel scan-local examples/synthetic-malicious --dry-run
+sentinel scan lodash@4.17.21 --dry-run
+```
+
+This shows what would be sent to each agent, the prompt sizes, and the
+expected token cost — useful for verifying the pipeline before paying anything.
+
+## Example output (illustrative)
 
 ```
 ╔══════════════════════════════════════════════════════════════════╗
